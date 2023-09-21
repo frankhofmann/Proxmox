@@ -27,6 +27,10 @@ $STD apt-get install -y ffmpeg
 $STD apt-get install -y libheif1
 $STD apt-get install -y ca-certificates
 $STD apt-get install -y gnupg
+$STD apt-get install -y imagemagick
+$STD apt-get install -y libheif-examples
+$STD apt-get install -y rawtherapee
+$STD apt-get install -y darktable
 msg_ok "Installed Dependencies"
 
 msg_info "Setting up Node.js Repository"
